@@ -809,6 +809,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 678972945}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &679796535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
+  m_PrefabInstance: {fileID: 1239094319}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &679796539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679796535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec23f2f075da83a4ea1c007336e1a680, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAxisValue: {x: 0, y: 0, z: 2000}
 --- !u!1 &726411033
 GameObject:
   m_ObjectHideFlags: 0
@@ -888,7 +906,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 13
   rotationSpeed: 120
-  verticalInput: 0
 --- !u!1 &899755176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,6 +1235,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100002, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
       insertIndex: -1
       addedObject: {fileID: 825415031}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 679796539}
   m_SourcePrefab: {fileID: 100100000, guid: af29f0ea7e5403641b3b244ede69c374, type: 3}
 --- !u!1 &1295456286
 GameObject:
